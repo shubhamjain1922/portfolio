@@ -185,7 +185,7 @@ a, .discription {
 }
 
 #project .row .photo:nth-child(3) {
-	background: url(images/navi.png);
+	background: url(images/navi.PNG);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
