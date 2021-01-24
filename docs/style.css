@@ -169,7 +169,7 @@ a, .discription {
 }
 
 #project .row .photo:nth-child(1)  {
-	background: url(images/to-do.png);
+	background: url(images/job.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -177,7 +177,7 @@ a, .discription {
 }
 
  #project .row .photo:nth-child(2) {
-	background: url(images/color-game.png);
+	background: url(images/sanskrit.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -185,12 +185,13 @@ a, .discription {
 }
 
 #project .row .photo:nth-child(3) {
-	background: url(images/number-line.png);
+	background: url(images/map.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 
 }
+
 
 #project .row .photo:nth-child(4)  {
 	background: url(images/nature.png);
@@ -201,7 +202,7 @@ a, .discription {
 }
 
 #project .row .photo:nth-child(5)  {
-	background: url(images/img23.jpg);
+	background: url(images/dictionary.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -209,7 +210,30 @@ a, .discription {
 }
 
 #project .row .photo:nth-child(6)  {
-	background: url(images/img23.jpg);
+	background: url(images/number-line.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+#project .row .photo:nth-child(7)  {
+	background: url(images/color-game.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+#project .row .photo:nth-child(8) {
+	background: url(images/to-do.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+#project .row .photo:nth-child(9) {
+	background: url(images/img23.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -326,7 +350,7 @@ a, .discription {
 }
 
 footer {
-	margin-top: 151px;
+	margin-top: 150px;
 }
 
 .contact-end {
