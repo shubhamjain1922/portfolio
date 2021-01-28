@@ -12,6 +12,7 @@
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
 	<link rel="stylesheet" type="text/css" href="style.css"> 
 
 </head>
@@ -62,6 +63,7 @@
   	<span>Hello I'm</span>
     <h1 class="display-4">Shubham Jain</h1>
     <h3 class="lead">Front-End Developer</h3>
+    <a href="resume.pdf" target="_blank" class="resume">Resume</a>
   </div>
 </div>
 
@@ -149,91 +151,173 @@
  </section>
 
  <!-- Project -->
-<section id="project">
-	<div class="container">
+ <section id="project">
+   <div class="container">
 
-		<div class="heading">
- 		   <h1>Recent Projects</h1>
- 		   <hr class="heading-hr">
- 	    </div>
 
-        <div class="container projects">
-        	<div class="row">
-            <div class="col-lg-4 col-md-6 col-xs-6 photo">
-              <div class="project-img">
-                <div class="anim">
-                  <h2>Job Finder</h2>
-                  <button type="button" class="btn btn-secondary btn-lg"><a href="https://shubhamjain1922.github.io/jobfinder/" target="_blank">Visit website ></a></button>
-                </div>   
-              </div>
+    <div class="heading">
+      <h1>Recent Projects</h1>
+      <hr class="heading-hr">
+    </div>
+
+    <div class="container projects">
+      <div class="carousel">
+        <div class="carousel-cell">
+          <div class="card">
+            <img src="images/job.png" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Job Finder</h3>
+              <p class="card-text">This responsive website shows real time job posting. Built using HTML, CSS, Bootstrap, Jquery, Javascript and job API.</p>
+              <div class="link_wrapper">
+                  <a class="demobut" href="https://shubhamjain1922.github.io/jobfinder/" target="_blank">Demo</a>
+                  <div class="dicon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                      <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                    </svg>
+                  </div>
+                </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-xs-6 photo">
-              <div class="project-img">
-                <div class="anim">
-                  <h2>Snskrit Tutor</h2>
-                  <button type="button" class="btn btn-secondary btn-lg"><a href="https://shubhamjain1922.github.io/sanskrit_tutor/" target="_blank">Visit website ></a></button>
-                </div>   
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-6 photo">
-              <div class="project-img">
-                <div class="anim">
-                  <h2>Interactive Map</h2>
-                  <button type="button" class="btn btn-secondary btn-lg"><a href="https://shubhamjain1922.github.io/interactive-map/" target="_blank">Visit website ></a></button>
-                </div>   
-              </div>
-            </div>
-        		<div class="col-lg-4 col-md-6 col-xs-6 photo">
-        			<div class="project-img">
-                <div class="anim">
-                  <h2>Nature Template</h2>
-                  <button type="button" class="btn btn-secondary btn-lg"><a href="https://shubhamjain1922.github.io/nature/" target="_blank">Visit website ></a></button>
-                </div>   
-              </div>
-        		</div>
-            <div class="col-lg-4 col-md-6 col-xs-6 photo">
-              <div class="project-img">
-                <div class="anim">
-                  <h2>Dictionary</h2>
-                  <button type="button" class="btn btn-secondary btn-lg"><a href="https://shubhamjain1922.github.io/dictionary/" target="_blank">Visit website ></a></button>
-                </div>   
-              </div>
-            </div>
-        		<div class="col-lg-4 col-md-6 col-xs-6 photo">
-        			<div class="project-img">
-                <div class="anim">
-                  <h2>Number-line Graph</h2>
-                  <button type="button" class="btn btn-secondary btn-lg"><a href="https://shubhamjain1922.github.io/number-line-graph/" target="_blank">Visit website ></a></button>
-                </div>   
-              </div>
-        		</div>
-            <div class="col-lg-4 col-md-6 col-xs-6 photo">
-              <div class="project-img">
-                <div class="anim">
-                  <h2>Color Game</h2>
-                  <button type="button" class="btn btn-secondary btn-lg"><a href="https://shubhamjain1922.github.io/color-game/" target="_blank">Visit website ></a></button>
-                </div>   
-              </div>
-            </div>
-        		<div class="col-lg-4 col-md-6 col-xs-6 photo">
-        			<div class="project-img">
-                <div class="anim">
-                  <h2>To-Do List</h2>
-                  <button type="button" class="btn btn-secondary btn-lg"><a href="https://shubhamjain1922.github.io/to-do-list/" target="_blank">Visit website ></a></button>
-                </div>   
-              </div>
-        		</div>
-        		<div class="col-lg-4 col-md-6 col-xs-6 photo">
-        			<div class="project-img">
-                <div>
-                  <h2>Coming Soon</h2>
-                </div>   
-              </div>
-        		</div>
-        	</div>
+          </div>
         </div>
+        <div class="carousel-cell">
+          <div class="card">
+            <img src="images/sanskrit.png" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Sanskrit Tutor</h3>
+              <p class="card-text">This responsive website is e-tutor for teaching sanksrit language. It has multiple tools like dictionary, quiz, translator and pronunciation.</p>
+              <div class="link_wrapper">
+                  <a class="demobut" href="https://shubhamjain1922.github.io/sanskrit_tutor/" target="_blank">Demo</a>
+                  <div class="dicon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                      <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                    </svg>
+                  </div>
+                </div>
+            </div>
+          </div>        </div>
+          <div class="carousel-cell">
+           <div class="card">
+            <img src="images/map.png" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Interactive map</h3>
+              <p class="card-text">This is a interactive map of my college campus, IIIT Guwahati which makes it easier to locate the buildings. Used lots of SVG's for building this project.</p>
+              <div class="link_wrapper">
+                  <a class="demobut" href="https://shubhamjain1922.github.io/interactive-map/" target="_blank">Demo</a>
+                  <div class="dicon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                      <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                    </svg>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="card">
+            <img src="images/job.png" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">HOTELL</h3>
+              <p class="card-text">This is a responsive landing page for a travel website. Built using HTML, CSS, JQquery, Javascript, Bootstrap and Flickity.</p>
+              <div class="link_wrapper">
+                  <a class="demobut" href="https://shubhamjain1922.github.io/travelwebsite/" target="_blank">Demo</a>
+                  <div class="dicon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                      <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                    </svg>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="card">
+            <img src="images/nature.png" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Nature</h3>
+              <p class="card-text">This is a responsive landing page for a geological website. Built using HTML, CSS and Bootstrap.</p>
+              <div class="link_wrapper">
+                  <a class="demobut" href="https://shubhamjain1922.github.io/nature/" target="_blank">Demo</a>
+                  <div class="dicon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                      <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                    </svg>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="card">
+            <img src="images/dictionary.png" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Dictionary</h3>
+              <p class="card-text">This is a responsive dictionary of english words. Built using HTML, CSS, JQquery, Javascript, Bootstrap and Json files for words and meanings.</p>
+              <div class="link_wrapper">
+                  <a class="demobut" href="https://shubhamjain1922.github.io/dictionary/" target="_blank">Demo</a>
+                  <div class="dicon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                      <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                    </svg>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="card">
+            <img src="images/number-line.png" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Number line</h3>
+              <p class="card-text">This is a responsive number line. Built using HTML, CSS, and Javascript. Major use of javascript in absolute postioning of the elements.</p>
+              <div class="link_wrapper">
+                  <a class="demobut" href="https://shubhamjain1922.github.io/number-line-graph/" target="_blank">Demo</a>
+                  <div class="dicon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                      <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                    </svg>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="card">
+            <img src="images/color-game.png" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">RGB Color Game</h3>
+              <p class="card-text">This is a responsive quiz of RGB color codes. Built using HTML, CSS and Javascript.</p>
+              <div class="link_wrapper">
+                  <a class="demobut" href="https://shubhamjain1922.github.io/color-game/" target="_blank">Demo</a>
+                  <div class="dicon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                      <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                    </svg>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="card">
+            <img src="images/to-do.png" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">To-Do List</h3>
+              <p class="card-text">This is a responsive to-do list. Built using HTML, CSS and Javascript.</p>
+                <div class="link_wrapper">
+                  <a class="demobut" href="https://shubhamjain1922.github.io/to-do-list/" target="_blank">Demo</a>
+                  <div class="dicon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                      <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                    </svg>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	</div>
+  </div>
 </section>
 
 
@@ -297,6 +381,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="script.js"></script>
 
