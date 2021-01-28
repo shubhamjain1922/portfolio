@@ -157,7 +157,6 @@ a, .discription {
 .carousel-cell {
 	width: 50%;
 	margin: 30px 25%;
-	margin-bottom: 0px;
 	text-align: center;
 }
 
@@ -219,6 +218,9 @@ a, .discription {
 	.demobut {
 		width: 230px;
 		margin-left: -20px;
+	}
+	.carousel-cell {
+		margin-bottom: 0px;
 	}
 }
 
