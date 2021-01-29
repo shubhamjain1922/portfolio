@@ -24,7 +24,7 @@ $(document).ready(function(){
   });
 });
 var carousel = $('.carousel').flickity({
-  autoPlay: 2000,
+  autoPlay: 15000,
   wrapAround: true,
 });
 
