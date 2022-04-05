@@ -51,7 +51,8 @@ svg {
 	color: white;
 	text-align: right;
 	margin-top: 50px;
-	font-family: vollkorn, serif;
+	font-family: 'Poppins', sans-serif;
+	padding-right: 50px;
 }
 
 .intro span {
@@ -75,12 +76,14 @@ svg {
 
 .resume {
 	font-size: 1.2em;
+	color: rgb(23, 162, 184);
+	text-decoration: underline;
 }
 
 /* about */
 
 section {
-	padding-top: 200px;
+	padding-top: 100px;
 }
 
  .heading-hr {
@@ -90,7 +93,7 @@ section {
 }
 
 #about .row {
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 .heading {
@@ -104,7 +107,8 @@ section {
 #about p {
 	text-align: center;
 	font-size: 1.1em;
-    font-family: cursive;
+    font-family: 'Poppins', sans-serif;
+	margin: 0;
 }
 
 #about a:hover {
@@ -113,31 +117,41 @@ section {
 
 .info {
 	text-align: center;
+	width: 60%;
+	margin: auto;
 }
 
 .info ul {
 	padding: 0;
 }
 
-.info li {
-	list-style: none;
-	font-family: vollkorn, serif;
-	font-size: 1.1em;
-	color: rgb(23, 162, 184);
+.info img {
+	height: 60px;
+	width: auto;
+	margin-bottom: 5px;
 }
 
-a, .discription {
-	color: white;
-
+.info li {
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.1em;
+	display: inline-block;
+	margin: 10px;
 }
 
 .about-heading {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 
 }
 
 .info h5 {
 	color: rgb(23, 162, 184);
+}
+
+@media (max-width: 991px) {
+	.info {
+		width: 100%;
+	}
 }
 
 @media (max-width: 768px) {
@@ -149,165 +163,242 @@ a, .discription {
 
 /* projects */
 
+#project {
+	padding-top: 150px;
+	width: 60% !important;
+	margin: auto;
+}
+
+@media (max-width: 1200px) {
+	#project {
+		width: 70% !important;
+	}
+}
+
+@media (max-width: 991px) {
+	#project {
+		width: 90% !important;
+	}
+}
+
+@media (max-width: 782px) {
+	#project {
+		width: 100% !important;
+	}
+}
+
 .projects {
 	margin-top: 80px;
 	position: relative;
 }
 
-.carousel-cell {
-	width: 50%;
-	margin: 30px 25%;
-	text-align: center;
+.nav-link{
+	cursor: pointer;
 }
 
-.flickity-page-dots .dot {
-	background: white;
-	width: 15px;
-	height: 15px;
-}
-.card {
-	border-radius: 5px;
-	background: transparent;
+.tab-content {
+	color: #495057;
+    background-color: #fff;
+	border-radius: 0 0 5px 5px;
+	padding: 50px 20px;
 }
 
-.card-title {
-	color: rgb(23, 162, 184);
+.tab-pane_img {
+	height: auto;
+	width: 100%;
 }
 
-.card-text {
-	margin: 20px 0;
-	margin-bottom: 30px;
-}
-
-.card-body {
-    font-family: cursive;
-    position: relative;
-}
-
-.card-img-top {
-	width: 70%;
-	min-width: 240px;
-	min-height: 240px;
-	border-radius: 5px;
-	margin: auto;
-}
-
-.link_wrapper{
-  position: relative;
-  display: inline-block;
-}
-
-.demobut{
-  display: block;
-  position: relative;
-  width: 250px;
-  height: 50px;
-  line-height: 50px;
-  font-weight: bold;
-  text-decoration: none;
-  background: #333;
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border: 3px solid #333;
-  transition: all .35s;
-}
-
-@media (max-width: 768px){
-	.demobut {
-		width: 230px;
-		margin-left: -20px;
+@media (max-width:768px) {
+	.tab-content{
+		padding-bottom: 20px;
 	}
-	.carousel-cell {
-		margin-bottom: 0px;
+	.tab-pane_img {
+		margin-top: 50px;
+		height: 150px;
+		width: auto;
+	}
+}
+@media (max-width:600px) {
+	.tab-content{
+		padding-bottom: 20px;
+	}
+	.tab-pane_img {
+		margin-top: 80px;
+		height: 150px;
+		width: auto;
+	}
+
+	.tab-pane_img2 {
+		margin-top: 120px;
+		height: 130px;
+		width: auto;
 	}
 }
 
-.dicon{
-  width: 50px;
-  height: 50px;
-  border: 3px solid transparent;
-  position: absolute;
-  transform: rotate(45deg);
-  right: 0;
-  top: 0;
-  z-index: -1;
-  transition: all .35s;
+.plbox {
+	height: 300px;
+}
+.prbox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.dicon svg{
-  width: 30px;
-  position: absolute;
-  top: calc(50% - 15px);
-  left: calc(50% - 15px);
-  transform: rotate(-45deg);
-  fill: rgb(23, 162, 184);
-  transition: all .35s;
+.ptitle {
+	font-family: 'Poppins', sans-serif;
+	font-size: 45px;
+	font-weight: 700;
+	letter-spacing: 0.8px;
+	margin: 0;
+	color: rgb(28, 27, 27);
+	margin-bottom: 20px;
 }
 
-.demobut:hover{
-  width: 200px;
-  border: 3px solid rgb(23, 162, 184);
-  background: transparent;
-  color: rgb(23, 162, 184);
+.greenway {
+	text-shadow: 1px 1px green;
+	color: green;
 }
 
-.demobut:hover + .dicon{
-  border: 3px solid rgb(23, 162, 184);
-  right: -25%;
+.digiq {
+	text-shadow: 1px 1px red;
+	color: #ac2025;
+}
+
+.jobfinder {
+	color: #334680;
+	text-shadow: 1px 1px #334680;
+}
+
+.freelancer {
+	color: #2f697e;
+	text-shadow: 1px 1px #2f697e;
+}
+
+.getmeds {
+	color: #1ca8a8;
+	text-shadow: 1px 1px #1ca8a8;
+}
+
+.pinfo {
+	display: inline-block;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.pimg {
+	display: inline-block;
+	height: 35px !important;
+	margin: 3px;
+	width: auto;
+}
+
+.pbut {
+	margin-top: 20px;
+	font-size: 17px;
+	color: white !important;
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 50px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.pbut:hover {
+	background-color: rgb(20, 126, 143);
+	text-decoration: none;
+}
+
+.greenwaybut {
+	background-color: green;
+}
+
+.greenwaybut:hover {
+	background-color: rgb(6, 85, 6);
+}
+
+.digiqbut {
+	background-color: #ac2025;
+}
+
+.digiqbut:hover {
+	background-color: rgb(198, 19, 19);
+}
+
+.jobfinderbut {
+	background-color: #334680;
+}
+
+.jobfinderbut:hover {
+	background-color: #263665;
+}
+
+.freelancerbut {
+	background-color: #2f697e;
+}
+
+.freelancerbut:hover {
+	background-color: rgb(25, 35, 66);
+}
+
+.getmedsbut {
+	background-color: #1ca8a8;
+}
+
+.getmedsbut:hover {
+	background-color: #157f7f;
 }
 
 /* contact */
 
-#contact {
-	background: url(images/footer.jpg);
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-	padding: 50px;
+#contactsec {
+	margin-top: 100px;
+	border-top: 1px solid white;
+	padding: 20px;
 }
 
-.contact-img34 {
-	height: 50px;
+#contactsec p {
+	margin: 0;
+	margin-bottom: 15px;
 }
 
 .contact-content {
-	text-align: right;
-	margin-top: 100px;
-	color: black;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 17px;
 }
 
 .contact-img12 {
-	height: 50px;
-	width: 60px;
-	padding: 10px;
+	height: 25px;
+	width: auto;
+	margin-right: 5px;
 }
 
-footer {
-	margin-top: 150px;
+.contact-img34 {
+	height: 30px;
+	width: auto;
+	margin-right: 5px;
 }
 
 .contact-end {
-	margin-top: 50px;
-	margin-bottom: 0;
+	margin-top: 30px !important;
+	margin-bottom: 0 !important;
 	text-align: center;
 }
 
-#contact hr {
+
+#contactsec a
+{
+	color: white;
+}
+
+#contactsec hr {
 	background:  white;
 }
 
-#contact a:hover {
-     color: black;
+#contactsec a:hover {
+     color: rgb(23, 162, 184);
 }
 
 .foot-hr {
 	width: 20%;
-	margin-right: 0;
 }

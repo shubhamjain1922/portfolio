@@ -23,15 +23,3 @@ $(document).ready(function(){
     } // End if
   });
 });
-var carousel = $('.carousel').flickity({
-  autoPlay: 15000,
-  wrapAround: true,
-});
-
-var a= $(".card-img-top").width();
-$(".card-img-top").height(a+"px");
-
-$(window).resize(function(){
-  var a= $(".card-img-top").width();
-$(".card-img-top").height(a+"px");
-});
